@@ -1,6 +1,6 @@
 — `he/him`
 
-— `HTML/CSS/JS, Java, Kotlin, Python`
+— `HTML/CSS/JS, Java, Kotlin, Python, C++`
 
 — `bi`
 
