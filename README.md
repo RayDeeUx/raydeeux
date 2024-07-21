@@ -4,4 +4,6 @@
 * `macOS`
 * `profile picture by u/CinnamoonPi: https://redd.it/115cxbz`
 
-![Metrics](https://metrics.lecoq.io/RayDeeUx)
+<picture>
+  <img src="/github-metrics.svg" alt="Metrics">
+</picture>
