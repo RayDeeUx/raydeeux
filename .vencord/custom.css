@@ -1,0 +1,3 @@
+span[class*="timestamp_"] > [aria-label^="Today at"]::before {
+    content: "Today at "
+}
