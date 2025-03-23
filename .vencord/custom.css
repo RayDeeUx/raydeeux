@@ -1,3 +1,8 @@
-span[class*="timestamp_"] > [aria-label^="Today at"]::before {
-    content: "Today at "
+[class^="message_"] [class*="timestampInline_"] > time {
+    font-size: 0;
+}
+
+[class^="message_"] [class*="timestampInline_"] > time::after {
+    font-size: 0.75rem;
+    content: attr(aria-label);
 }
