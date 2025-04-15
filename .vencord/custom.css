@@ -562,3 +562,7 @@ div*[class="colorPremium_be03aa"] {display:none!important; height:0px!important;
     visibility: hidden !important;
     height: 0% !important;
 }
+
+[class*="title_"] {
+    display: none !important;
+}
