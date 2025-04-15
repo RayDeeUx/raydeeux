@@ -543,3 +543,7 @@ div*[class="colorPremium_be03aa"] {display:none!important; height:0px!important;
     \*      for the alerts      */
     --craat-border-radius: 16px; /* default: 16px */
 }
+.visual-refresh [style$="grid-area: betterFoldersSidebar;"]~section.panels_c48ade {
+  left: calc(var(--custom-guild-list-width)*2);
+  width: calc(100% - var(--custom-guild-list-width)*2) !important;
+}
