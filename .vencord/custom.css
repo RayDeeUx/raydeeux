@@ -463,3 +463,83 @@ div*[class="colorPremium_be03aa"] {display:none!important; height:0px!important;
 .listItemWrapper__91816{display:none!important;}
 
 [class^=memberInner] [class^=subText] svg > path[fill="#23a55a"] { fill: #747f8d }
+.icon_f34534.guildIcon__48112 { border-radius: 50% !important }
+.visual-refresh {
+    --custom-channel-textarea-text-area-height: 56px;
+    .form_f75fb0 {
+        margin: 0 8px 8px 8px;
+        padding: 0;
+        --chatbar-border-color: var(--border-faint);
+    }
+    .channelTextArea_f75fb0 {
+        margin: 0;
+        border-color: var(--chatbar-border-color);
+        transition: none;
+    }
+    .base_b88801 {
+        top: -25px;
+        left: 0;
+        right: 0;
+        background-color: var(--chat-background-default);
+        padding: 0 8px;
+        border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+        border: 1px solid var(--chatbar-border-color);
+        border-bottom: none;
+        transition: none;
+    }
+    .stackedBars__74017,
+    .threadSuggestionBar__841c8 {
+        border-color: var(--chatbar-border-color) !important;
+    }
+    .form_f75fb0:has(.base_b88801) {
+        .channelTextArea_f75fb0 {
+            border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+        }
+    }
+    .form_f75fb0:has(.channelTextArea__74017:focus-within) {
+        --chatbar-border-color: var(--border-subtle);
+    }
+    .scrollerSpacer__36d07 {
+        height: calc(25px + 8px);
+    }
+    .scroller__36d07::-webkit-scrollbar-track {
+        margin-bottom: calc(21px + 8px);
+    }
+    .bottomBar__0f481 {
+        margin-bottom: 25px;
+    }
+}
+/* Force sidebar to be full height */
+.bar_c38106 { padding-left: 0px; }
+.sidebarList_c48ade, .notice__6e2b9 {
+    border-top-left-radius: 0px!important;
+    border-top: 0px!important;
+}
+.notice__6e2b9 {
+    border-left: 0px!important;
+    border-bottom: 1px solid var(--app-border-frame);
+}
+.tutorialContainer__1f388 {
+    padding-top: calc(var(--space-xs) * 2); /* Fix padding on home button */
+}
+.visual-refresh .base_c48ade {
+    grid-template-rows: [top] min-content [titleBarEnd] min-content [noticeEnd] 1fr [end];
+    grid-template-areas: "notice     notice       notice"
+                         "guildsList channelsList titleBar"
+                         "guildsList channelsList page";
+}
+@import url("https://nspc911.github.io/themes/vencord/RefreshedSeamlessChatBar.theme.css");
+:root {
+    /* change padding of the bar */
+     --rscb-chat-box-padding: 8px; /* default is 8px for alignment */
+}
+@import url("https://nspc911.github.io/themes/vencord/ChatRelatedAlertsAtTop.theme.css");
+:root {
+    /* Set to 1 if you want them to float  *\
+    |*      Recommended while using        *|
+    \*      Midnight/Rounded Themes        */
+    --craat-popout: 0; /* Default = 0 */
+    /* Change the border radius *\
+    \*      for the alerts      */
+    --craat-border-radius: 16px; /* default: 16px */
+}
