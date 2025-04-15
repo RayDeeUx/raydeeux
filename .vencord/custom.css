@@ -582,3 +582,12 @@ div[class="colorPremium_be03aa"] {display:none!important; height:0px!important;}
     height:0!important;
     width:0!important;
 }
+
+
+div[class^="name__"]:not(:has(div)):not(:has(span)) {
+    color: hsl(0, 0%, 85%)!important;
+}
+
+:root {
+    --bg-overlay-selected: hsl(0, 0%, 25%); /* the selected channel/dm                                       */
+}
