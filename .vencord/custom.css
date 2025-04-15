@@ -447,9 +447,9 @@ disable pings begin
 disable pings end
 **/
 
-div*[class="notice_be03aa"] {display:none!important; height:0px!important;} /* notice_be03aa colorPremiumTier2_be03aa colorPremium_be03aa */
-div*[class="colorPremiumTier2_be03aa"] {display:none!important; height:0px!important;} /* notice_be03aa colorPremiumTier2_be03aa colorPremium_be03aa */
-div*[class="colorPremium_be03aa"] {display:none!important; height:0px!important;} /* notice_be03aa colorPremiumTier2_be03aa colorPremium_be03aa */
+div[class="notice_be03aa"] {display:none!important; height:0px!important;} /* notice_be03aa colorPremiumTier2_be03aa colorPremium_be03aa */
+div[class="colorPremiumTier2_be03aa"] {display:none!important; height:0px!important;} /* notice_be03aa colorPremiumTier2_be03aa colorPremium_be03aa */
+div[class="colorPremium_be03aa"] {display:none!important; height:0px!important;} /* notice_be03aa colorPremiumTier2_be03aa colorPremium_be03aa */
 
 /*
 [data-list-item-id*="_get-premium"] { display: none!important; }
