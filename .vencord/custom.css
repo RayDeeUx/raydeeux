@@ -550,7 +550,7 @@ div*[class="colorPremium_be03aa"] {display:none!important; height:0px!important;
   width: calc(100% - var(--custom-guild-list-width)*2) !important;
 }
 
-[class*="header__"] [class*="h5_"] {
+[class*="header__"] {
     text-transform: uppercase !important;
     font-size: 8pt !important;
 }
@@ -560,13 +560,6 @@ div*[class="colorPremium_be03aa"] {display:none!important; height:0px!important;
 }
 
 [class*="protip_"] {
-    display: none !important;
-    size:0!important;
-    height:0!important;
-    width:0!important;
-}
-
-[class*="anchor_edefb8 anchorUnderlineOnHover_edefb8"] {
     display: none !important;
     size:0!important;
     height:0!important;
