@@ -550,7 +550,7 @@ div*[class="colorPremium_be03aa"] {display:none!important; height:0px!important;
   width: calc(100% - var(--custom-guild-list-width)*2) !important;
 }
 
-[class*="header__"] {
+[class*="header__"] [class*="h5_"] {
     text-transform: uppercase !important;
     font-size: 8pt !important;
 }
