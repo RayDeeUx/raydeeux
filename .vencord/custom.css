@@ -563,17 +563,6 @@ div*[class="colorPremium_be03aa"] {display:none!important; height:0px!important;
     height: 0% !important;
 }
 
-[class*="title_"] {
-    display: none !important;
-}
-
-[class*="protip_"] {
-    display: none !important;
-    size:0!important;
-    height:0!important;
-    width:0!important;
-}
-
 [class*="anchor_edefb8 anchorUnderlineOnHover_edefb8"] {
     display: none !important;
     size:0!important;
