@@ -554,10 +554,3 @@ div*[class="colorPremium_be03aa"] {display:none!important; height:0px!important;
     text-transform: uppercase !important;
     font-size: 8pt !important;
 }
-
-[class*="button__201d5"] {
-    display: none !important;
-    width: 0% important;
-    visibility: hidden !important;
-    height: 0% !important;
-}
