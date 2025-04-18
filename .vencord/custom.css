@@ -596,15 +596,28 @@ div[class*="messageContent_"]:has(span) {
     color: rgb(220, 220, 220);
 }
 [class*="buttonContainer_"]:has([class*="stickerButton_"]) {
-    display: flex !important;
-    display: flex !important;
-    display: flex !important;
-    display: flex !important;
-    display: flex !important;
-    display: flex !important;
-    display: flex !important;
-    display: flex !important;
-    display: flex !important;
-    display: flex !important;
-    display: flex !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
+    display: block !important;
 }
