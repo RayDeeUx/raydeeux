@@ -643,3 +643,6 @@ div[class*="messageContent_"]:has(span) {
         }
     }
 }
+
+[class *="inviteButton_"] {display:none;}
+div[aria-label*="Channel "] { display: none; }
