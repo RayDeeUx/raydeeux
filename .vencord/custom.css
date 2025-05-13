@@ -20,12 +20,7 @@
     font-family: "Dashless", var(--font-primary);
 }
 :root {
-    font-size: 14px!important;
-    --font-primary: "Comic Sans MS"!important;
-    --font-display: "Comic Sans MS"!important;
-    --font-headline: "Comic Sans MS"!important;
-    --font-code: "Comic Sans MS"!important; /* you should use a monospace font for this */
-    //--font-code: "JetBrains Mono"!important; /* you should use a monospace font for this */
+    --font-code: "JetBrains Mono"!important; /* you should use a monospace font for this */
 }
 img[src*="/assets/4643b9da67226d176c1c988a94b1f1ec.svg"] {
    content:url("https://discord.com/assets/85cf2b49d2a185c98ec8e383ad5a05d6.svg");
@@ -646,3 +641,30 @@ div[class*="messageContent_"]:has(span) {
 
 [class *="inviteButton_"] {display:none;}
 div[aria-label*="Channel "] { display: none; }
+
+/* remove gradient glow in chat and user list */
+.threeColorGradient_e5de78,
+.twoColorGradient_e5de78 {
+  &.usernameGradient_e5de78 {
+    color: color-mix(in lab, var(--custom-gradient-color-1), var(--custom-gradient-color-2));
+    background: none;
+    -webkit-text-fill-color: initial;
+  }
+
+  &::after,
+  &.nameGlow__703b9 {
+      display: none;
+  }
+}
+
+[class^="chipletContainerInner_"] > span > .unselectable__10651 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 0;
+  will-change: max-width, margin;
+  transition: max-width 0.7s cubic-bezier(0.34, 1.56, 0.64, 1), 
+              margin 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+[class*=clanTag] { display:none!important; }
