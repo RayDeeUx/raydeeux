@@ -1,12 +1,3 @@
-[class^="message_"] [class*="timestampInline_"] > time {
-    font-size: 0;
-}
-
-[class^="message_"] [class*="timestampInline_"] > time::after {
-    font-size: 0.75rem;
-    content: attr(aria-label);
-}
-
 @font-face {
     font-family: "Dashless";
     src: url("https://vendicated.github.io/random-files/Dashless.woff2") format("woff2");
@@ -527,7 +518,7 @@ div[class="colorPremium_be03aa"] {display:none!important; height:0px!important;}
 @import url("https://nspc911.github.io/themes/vencord/RefreshedSeamlessChatBar.theme.css");
 :root {
     /* change padding of the bar */
-     --rscb-chat-box-padding: 8px; /* default is 8px for alignment */
+     --rscb-chat-box-padding: 0px; /* default is 8px for alignment */
 }
 
 @import url("https://nspc911.github.io/themes/vencord/ChatRelatedAlertsAtTop.theme.css");
@@ -540,32 +531,23 @@ div[class="colorPremium_be03aa"] {display:none!important; height:0px!important;}
     \*      for the alerts      */
     --craat-border-radius: 16px; /* default: 16px */
 }
-.visual-refresh [style$="grid-area: betterFoldersSidebar;"]~section.panels_c48ade {
-  left: calc(var(--custom-guild-list-width)*2);
-  width: calc(100% - var(--custom-guild-list-width)*2) !important;
-}
-
-[class*="header__"] {
-    text-transform: uppercase !important;
-    font-size: 8pt !important;
-}
 
 [class*="oiceChannelsButton__"] {
-    display: none !important;
+    display:none!important;
     size:0!important;
     height:0!important;
     width:0!important;
 }
 
 [class*="title__85643"] {
-    display: none !important;
+    display:none!important;
     size:0!important;
     height:0!important;
     width:0!important;
 }
 
 [class*="protip_"] {
-    display: none !important;
+    display:none!important;
     size:0!important;
     height:0!important;
     width:0!important;
@@ -577,7 +559,6 @@ div[class="colorPremium_be03aa"] {display:none!important; height:0px!important;}
     height:0!important;
     width:0!important;
 }
-
 
 div[class^="name__"]:not(:has(div)):not(:has(span)) {
     color: hsl(0, 0%, 85%)!important;
@@ -592,30 +573,7 @@ div[class*="messageContent_"]:has(span) {
 }
 @layer{
 	[class*="buttonContainer_"]:has([class*="stickerButton_"]) {
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
-	    display: block !important;
+	    display: block!important;
 	}
 }
 /* Remove Profile Reactions */
