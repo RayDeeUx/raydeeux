@@ -477,14 +477,6 @@ div[class="colorPremium_be03aa"] {display:none!important; height:0px!important;}
     .threadSuggestionBar__841c8 {
         border-color: var(--chatbar-border-color) !important;
     }
-    .form_f75fb0:has(.base_b88801) {
-        .channelTextArea_f75fb0 {
-            border-radius: 0 0 var(--radius-sm) var(--radius-sm);
-        }
-    }
-    .form_f75fb0:has(.channelTextArea__74017:focus-within) {
-        --chatbar-border-color: var(--border-subtle);
-    }
     .scrollerSpacer__36d07 {
         height: calc(25px + 8px);
     }
@@ -560,10 +552,6 @@ div[class="colorPremium_be03aa"] {display:none!important; height:0px!important;}
     width:0!important;
 }
 
-div[class^="name__"]:not(:has(div)):not(:has(span)) {
-    color: hsl(0, 0%, 85%)!important;
-}
-
 :root {
     --bg-overlay-selected: hsl(0, 0%, 25%); /* the selected channel/dm                                       */
 }
@@ -581,21 +569,6 @@ div[class*="messageContent_"]:has(span) {
 
 /* Hide nameplates */
 [style^="background: linear-gradient(90deg"]:has([src*="/nameplates/"]) { display: none; }
-[class*="dm_"]:has([class*="linkPlated_"]) {
-    & [class*="linkPlated_"] { padding-right: var(--space-16); }
-    & [class*="closeButtonPlated_"] {
-        opacity: 0.7;
-        &:hover { opacity: 1; }
-        & [class^="innerCloseButtonPlated"] {
-            opacity: unset; 
-            background: none;
-            & svg {
-                color: inherit;
-                &:is(:hover, :focus-within) { color: var(--interactive-hover); }
-            }
-        }
-    }
-}
 
 [class *="inviteButton_"] {display:none;}
 div[aria-label*="Channel "] { display: none; }
