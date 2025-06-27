@@ -599,3 +599,10 @@ div[aria-label*="Channel "] { display: none; }
 }
 
 [class*=clanTag] { display:none!important; }
+
+.result__2dc39::after {
+  display: none;
+}
+.result__2dc39:hover {
+  box-shadow: var(--shadow-border);
+}
