@@ -12,6 +12,32 @@
 }
 :root {
     --font-code: "JetBrains Mono"!important; /* you should use a monospace font for this */
+    /*abbie nofrills snippet*/
+    --\\--hide-nameplates: true;
+    --\\--hide-guild-tags: true;
+    --\\--hide-profile-effects: true;
+    --\\--hide-avatar-decorations: true;
+    --\\--hide-gradient-glow-usernames: true;
+    --\\--hide-server-boost-goal: true;
+    --\\--hide-server-activity: true;
+    --\\--hide-user-activity: true;
+    --\\--hide-context-menu-quick-reactions: true;
+    --\\--hide-hover-quick-reactions: true;
+    --\\--hide-image-edit-button: true;
+    --\\--hide-apps-button: true;
+    --\\--hide-gift-button: true;
+    --\\--hide-help-button: true;
+    --\\--hide-shop-button: true;
+    --\\--hide-nitro-button: true;
+    --\\--hide-active-now: true;
+    --\\--hide-nitro-upsells: true;
+
+    --\\--compact-input-box: true;
+    --\\--compact-context-menu: true;
+
+    --\\--darker-scrollbar: true;
+    --\\--prevent-sidebar-resizing: true;
+    --\\--fix-minor-icon-misalignments: true;
 }
 img[src*="/assets/4643b9da67226d176c1c988a94b1f1ec.svg"] {
    content:url("https://discord.com/assets/85cf2b49d2a185c98ec8e383ad5a05d6.svg");
@@ -27,12 +53,6 @@ div.progressBarContainer-1efroK { display: none; }
 [class*="bannerSVGWrapper-"] > mask > :not(circle):not(rect){
     display: none !important;
 }
-div[class^="profileEffects_"] {
-  display: none !important;
-}
-div[class^="notice_be03aa"] {
-    display: none !important;
-}
 /* div[class^="layer_c14d31"] {
     display: none !important;
 } */
@@ -42,24 +62,13 @@ div[class^="notice_be03aa"] {
   margin-left: auto;
 }
 /* End make jump to present/jump to original/mark as read bars smaller and hug the right */
-[href="/store"],[href="/shop"]{
-  display:none!important;
-}
-[class*="profileEffects"] {
-  display:none!important;
-}
-.threadSuggestionBar-3ExSyc {
+[class*="threadSuggestionBar-"] {
     display: none!important;
 }
-.notice__6e2b9 {display: none!important;}
 .lineClamp2Plus-2SCQmH {
     -webkit-line-clamp: 100!important;
 }
 .footer__214dc {display:none!important;}
-@font-face {
-    font-family: "TwemojiColor";
-    src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf");
-}
 :root {
     --font-primary: "gg sans", sans-serif, "TwemojiColor";
 }
@@ -123,8 +132,7 @@ section[class^="panels_"]>div[class^="mask_"] {
 [data-tab-id="MUTUAL_FRIENDS"] {
     order: 1;
 }
-[aria-label="Start Voice Call"], [aria-label="Start Video Call"]
-{
+[aria-label="Start Voice Call"], [aria-label="Start Video Call"] {
     display: none !important;
 }
 .buttons_ce5b56 {
@@ -263,15 +271,7 @@ svg[class*="avatarDecorationHint"] {
 .collapsed__98ad5 {
     background: none!important;
 }
-/* Custom Emoji Button */
-.sprite__294b3.spriteColored__9a869 {
-    background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
-    background-size: 24px;
-}
-.sprite__294b3.spriteGreyscale__750f4 {
-    mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
-    mask-size: 24px;
-}
+
 .avatar__991e2[src="https://cdn.discordapp.com/avatars/1081004946872352958/a_6170487d32fdfe9f988720ad80e6ab8c.gif?size=80"] {
     content: url(https://media.discordapp.net/stickers/1217112512374505613.png);
     width: 90px !important;
@@ -550,10 +550,6 @@ div[class="colorPremium_be03aa"] {display:none!important; height:0px!important;}
     size:0!important;
     height:0!important;
     width:0!important;
-}
-
-:root {
-    --bg-overlay-selected: hsl(0, 0%, 25%); /* the selected channel/dm                                       */
 }
 
 div[class*="messageContent_"]:has(span) {
