@@ -602,27 +602,15 @@ div[aria-label*="Channel "] { display: none; }
 .result__2dc39:hover {
   box-shadow: var(--shadow-border);
 }
-.tooltipWordmarkContainer_f240e3 {
-       display: none;
-       padding: 0;
-}
 
-.tooltipContainer_f240e3 > img {
-    display: none;
-}
-
-.tooltipContainer_f240e3 > h1 {
-    display: none;
-    padding: 0;
-}
-
-.tooltipContainer_f240e3 {
-    padding: 0;
-    margin: 0 auto;
-}
-
-.tooltipDescription_f240e3 {
-    color: white !important;
-    font-size: 14px;
-    padding: 0;
+/* Remove Nitro tenure tooltip bloat - no extra text, less laggy(?) */
+[class^="tooltipContainer_"]:has([class^="tooltipWordmarkContainer_"]) {
+    padding: initial;
+    & img, h1, h2, [class^="tooltipWordmarkContainer_"] { display: none; }
+    
+    & [class*="tooltipDescription_"] {
+        color: inherit!important;
+        font: inherit;
+        margin: inherit;
+    }
 }
