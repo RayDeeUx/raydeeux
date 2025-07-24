@@ -615,5 +615,5 @@ div[aria-label*="Channel "] { display: none; }
     }
 } */
 blockquote {
-  color: var(--text-default);
+  color: var(--text-default) !important;
 }
