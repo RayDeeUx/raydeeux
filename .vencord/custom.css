@@ -646,7 +646,7 @@ blockquote {
 
 /* this might be laggy */
 /* Hide blocked/ignored user information in replies (most of the time) */
-[id^="message-reply-context-"]:has([class^="repliedTextPlaceholder_"]):not(:has([class^="repliedTextContentTrailingIcon_"])) :is([class^="replyAvatar_"], [class^="username_"], span:has([src^="https://cdn.discordapp.com/clan-badges/"])) {
+[class^="repliedTextPlaceholder_"] {
     display: none;
 }
 /* this might be laggy */
