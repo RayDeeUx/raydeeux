@@ -16,10 +16,12 @@
   <tr>
     <td>
       <img src="https://github-readme-stats.vercel.app/api?username=RayDeeUx&theme=algolia&show_icons=true&hide_border=true&count_private=true" alt="RayDeeUx's Top GitHub Languages (by anuraghazra)" />
-      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RayDeeUx&theme=algolia&show_icons=true&hide_border=true&layout=compact" alt="RayDeeUx's GitHub Grade (by anuraghazra)" />
+      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RayDeeUx&theme=algolia&show_icons=true&hide_border=true&layout=compact&langs_count=8" alt="RayDeeUx's GitHub Grade (by anuraghazra)" />
     </td>
     <td>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RayDeeUx&theme=transparent" alt="RayDeeUx's GitHub Contributions (by vn7n24fzkq)"/>
       <img src="https://streak-stats.demolab.com?user=RayDeeUx&theme=algolia&hide_border=true" alt="RayDeeUx's GitHub Streak (by DenverCoder1)" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RayDeeUx&theme=transparent&utcOffset=-5" alt="RayDeeUx's GitHu Productivity (by vn7n24fzkq)" />
     </td>
   </tr>
 </table>
