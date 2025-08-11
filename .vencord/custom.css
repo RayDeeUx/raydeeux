@@ -643,10 +643,3 @@ blockquote {
 .withAccentColor__60fa3 {
     background: color-mix(in srgb, var(--background-surface-high), var(--__accent-color) 25%);
 }
-
-/* this might be laggy */
-/* Hide blocked/ignored user information in replies (most of the time) */
-[class^="repliedTextPlaceholder_"] {
-    display: none;
-}
-/* this might be laggy */
