@@ -1,6 +1,9 @@
 /* https://discord.com/channels/1015060230222131221/1403857771295670343/1404076639738003496 */
 /* snippet by https://github.com/Blade04208 */
 .user-profile-modal-v2 {
+    max-width: var(--pmv1b-max-width) !important;
+    min-width: 0px !important;
+
     .inner_c0bea0 {
         padding: 0px !important;
         gap: 0px !important;
@@ -35,10 +38,7 @@
         }
     }
 
-
-
     .inner_c0bea0:has(.tabBarItem__37bfc:focus, .top_b3f026:focus, .tabBarPanel__37bfc:focus-within, .tabBarPanel__37bfc:focus) {
-
         .profile__9c3be {
 
             .markup__75297,
@@ -91,16 +91,22 @@
     }
 
     .profileHeader__9c3be {
-        height: 100px;
-        overflow: hidden;
+        height: 320px !important;
 
         .mask__68edb {
-            >mask>circle {
-                transform: scale(0.419);
-            }
+            min-height: 0px !important;
 
             >foreignObject {
-                height: 80px;
+                mask: none;
+
+                .banner__68edb {
+                    min-height: var(--pmv1b-banner-height) !important;
+                    height: var(--pmv1b-banner-height) !important;
+
+                    &::before {
+                        display: none;
+                    }
+                }
             }
         }
     }
@@ -115,10 +121,11 @@
     .container__63ed3 {
         position: fixed;
         top: 220px !important;
+        max-width: calc(var(--pmv1b-max-width) - 200px - 26px - 26px);
     }
 
     .profileBody__9c3be {
-        margin-top: 98px;
+        margin-top: -2px;
         padding-top: var(--space-xl);
     }
 
@@ -165,12 +172,28 @@
         }
     }
 
-    .connectionInfo__9bfb9:not(:has(>.metadata__9bfb9>.connectedAccountVanityMetadata_fffe42)) {
+    .connectionInfo__9bfb9 {
         justify-content: start;
         padding-top: 3px;
     }
 
-    .connection__9bfb9:has(.connectedAccountVanityMetadata_fffe42) {
+    .connection__9bfb9:has(.metadata__9bfb9>.connectedAccountVanityMetadata_fffe42) {
         order: -1;
+
+        .connectionInfo__9bfb9 {
+            justify-content: center;
+            padding-top: 0px;
+        }
+    }
+
+    .wrapper__44b0c::before {
+        content: "";
+        position: absolute;
+        left: -7.5%;
+        top: -7.5%;
+        width: 115%;
+        height: 115%;
+        border-radius: 50%;
+        background: var(--profile-gradient-modal-background-color);
     }
 }
