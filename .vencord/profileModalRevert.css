@@ -1,8 +1,11 @@
 /* https://discord.com/channels/1015060230222131221/1403857771295670343/1404076639738003496 */
 /* snippet by https://github.com/Blade04208 */
+/* last modified by https://bsky.app/profile/did:plc:mx2n7v2ofnfszhfwtaoripcf (@glitchify64.bsky.social) */
 .user-profile-modal-v2 {
-    max-width: var(--pmv1b-max-width) !important;
+    max-width: 620px !important;
     min-width: 0px !important;
+    max-height: 600px !important;
+    min-height: 0px !important;
 
     .inner_c0bea0 {
         padding: 0px !important;
@@ -21,7 +24,7 @@
     &.custom-theme-background {
         .inner_c0bea0 {
             padding: 4px !important;
-            background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-secondary-color)) !important;
+            background: linear-gradient(100px(--profile-gradient-primary-color), 100px(--profile-gradient-secondary-color)) !important;
         }
 
         .profile__9c3be {
@@ -100,8 +103,8 @@
                 mask: none;
 
                 .banner__68edb {
-                    min-height: var(--pmv1b-banner-height) !important;
-                    height: var(--pmv1b-banner-height) !important;
+                    min-height: 0px !important;
+                    height: 100px !important;
 
                     &::before {
                         display: none;
