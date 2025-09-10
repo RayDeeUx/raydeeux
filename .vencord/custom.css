@@ -649,3 +649,11 @@ blockquote {
 .withAccentColor__60fa3 {
     background: color-mix(in srgb, var(--background-surface-high), var(--__accent-color) 25%);
 }
+
+/* typing_b88801 base_b88801 inTextChannel_b88801 */
+/* PERSONAL FIX FOR TYPING INDICATOR, BRITTLE DUE TO ZOOM LEVEL FUCKERY */
+div[class*="typing_"][class*="base_"][class*="inTextChannel_"] {
+    left: 2%!important;
+    bottom: 100%!important;
+    width: 93%!important;
+}
