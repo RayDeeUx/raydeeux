@@ -383,7 +383,7 @@ svg[class*="avatarDecorationHint"] {
 [class*="biteSize_"] :is([aria-label="Add Friend"], [aria-label="Friends"]) {
     display: none !important;
 }
-:is([aria-label="Create Invite"]) {
+:is([aria-label*="Invite"]) {
     display: none !important;
 }
 [class*="voiceChannelsButton_"] {
