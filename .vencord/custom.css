@@ -657,3 +657,12 @@ div[class*="typing_"][class*="base_"][class*="inTextChannel_"] {
     bottom: 100%!important;
     width: 93%!important;
 }
+
+/* tell discord TOS to fuck off */
+[class*=appAsidePanelWrapper_] > [class*=notAppAsidePanel_] > [class*=layerContainer__] > [class*=layer_] > [class*=focusLock_]{
+    display:none!important;
+}
+
+[class*=scrim_]{
+    display:none!important;
+}
