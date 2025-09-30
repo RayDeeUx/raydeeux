@@ -659,10 +659,10 @@ div[class*="typing_"][class*="base_"][class*="inTextChannel_"] {
 }
 
 /* tell discord TOS to fuck off */
-[class*=appAsidePanelWrapper_] > [class*=notAppAsidePanel_] > [class*=layerContainer__] > [class*=layer_] > [class*=focusLock_]{
+/* [class*=appAsidePanelWrapper_] > [class*=notAppAsidePanel_] > [class*=layerContainer__] > [class*=layer_] > [class*=focusLock_]{
     display:none!important;
 }
 
-[class*=scrim_]{
+[class*=scrim_] {
     display:none!important;
-}
+} */
