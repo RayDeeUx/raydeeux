@@ -658,6 +658,15 @@ div[class*="typing_"][class*="base_"][class*="inTextChannel_"] {
     width: 93%!important;
 }
 
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label)!important;
+  font-size: 12px!important;
+}
+
+span[class*="timestampInline_"] {
+  font-size: 0px !important;
+}
+
 /* tell discord TOS to fuck off */
 /* [class*=appAsidePanelWrapper_] > [class*=notAppAsidePanel_] > [class*=layerContainer__] > [class*=layer_] > [class*=focusLock_]{
     display:none!important;
