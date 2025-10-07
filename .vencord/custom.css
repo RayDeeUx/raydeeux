@@ -658,13 +658,14 @@ div[class*="typing_"][class*="base_"][class*="inTextChannel_"] {
     width: 93%!important;
 }
 
-span[class*="timestampInline_"] time::before {
-  content: attr(aria-label)!important;
-  font-size: 12px!important;
-}
-
-span[class*="timestampInline_"] {
-  font-size: 0px !important;
+time[datetime]:hover::after {
+  content: "("attr(datetime)")";
+  width: max-content;
+  position: absolute;
+  z-index: 9999;
+  backdrop-filter: blur(4px);
+  padding: 0 4px;
+  border-radius: 6px;
 }
 
 /* tell discord TOS to fuck off */
