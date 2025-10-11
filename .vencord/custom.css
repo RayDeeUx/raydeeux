@@ -668,6 +668,10 @@ time[datetime]:hover::after {
   border-radius: 6px;
 }
 
+[class^=notice__] {
+	display:none!important;
+}
+
 /* tell discord TOS to fuck off */
 /* [class*=appAsidePanelWrapper_] > [class*=notAppAsidePanel_] > [class*=layerContainer__] > [class*=layer_] > [class*=focusLock_]{
     display:none!important;
