@@ -1,0 +1,12 @@
+/* thejarvisdevil has a very twisted sense of humor these days */
+[class*="messagelistitem" i]:has(video[src*="kendrick" i]) {
+    display: none!important;
+}
+
+[class*="messagelistitem" i]:has(video[src*="mario-tomato" i]) {
+    display: none!important;
+}
+
+[class*="messagelistitem" i]:has(video[src*="nightmare-jumpscare" i]) {
+    display: none!important;
+}
