@@ -680,3 +680,21 @@ time[datetime]:hover::after {
 [class*=scrim_] {
     display:none!important;
 } */
+
+
+/* i hate userstyle fonts thank you obby */
+.username_c19a55.dnsFont__89a31 {
+  font-family: var(--font-primary);
+}
+[data-username-with-effects] {
+  animation: none !important;
+  font-family: var(--font-display);
+  color: var(--text-default) !important;
+  -webkit-text-fill-color: unset !important;
+  --custom-display-name-styles-gradient-start-color: var(--text-default);
+  --custom-display-name-styles-gradient-end-color: var(--text-default);
+  --custom-display-name-styles-main-color: var(--text-default);
+  &::before {
+    content: unset !important;
+  }
+}
