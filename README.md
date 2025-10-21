@@ -25,3 +25,5 @@
     </td>
   </tr>
 </table>
+
+<img src="/metrics.plugin.calendar.full.svg" alt="RayDeeUx's Lifetime GitHub Commit History (by lowlighter)">
