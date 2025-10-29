@@ -421,6 +421,9 @@ div[class="footer_aa1bff"] {
 [href*="message-requests"] {
 	display: none!important;
 }
+[href*="quest-home"] {
+	display: none!important;
+}
 /**
 disable pings begin
 **/
