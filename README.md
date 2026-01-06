@@ -1,3 +1,4 @@
+[![wakatime](https://wakatime.com/badge/user/92b2c4f4-a163-4553-a402-aac2e9ec28b1.svg)](https://wakatime.com/@92b2c4f4-a163-4553-a402-aac2e9ec28b1) (and counting!)
 * `he/him`
 * `HTML/CSS/JS, Java, Kotlin, Python, C++`
 * `bi`
