@@ -5,6 +5,8 @@
 * `macOS`
 * `profile picture by u/CinnamoonPi: https://redd.it/115cxbz`
 
+so i had all of these cool modules showing summarizing my historical github activity but a lot of them seem to be broken right now :/ sorry about that!
+
 <table align="center">
   <tr>
     <td width="500px" align="center">
