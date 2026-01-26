@@ -701,3 +701,35 @@ time[datetime]:hover::after {
     content: unset !important;
   }
 }
+
+/* https://discord.com/channels/1015060230222131221/1028106818368589824/1464809692466380864 */
+
+.af3987915705da59-role span:nth-of-type(2) {
+  display: flex;
+}
+
+.af3987915705da59-role span:nth-of-type(2) img:first-of-type {
+  width: 14px; /* 14px and 15px both look good, pick your preference */
+  height: 14px; /* Keep in mind the images will be upscaled from 12x12 which may make them look a bit odd */
+}
+
+.vc-permviewer-role-button { padding: 2px }
+
+[class^=roleTag] > [class^=role] {
+    border-radius: var(--radius-sm);
+    gap: 4px;
+    padding: 0 4px;
+    > [class^=roleCircle] { margin: unset }
+    > span > [class^=roleIcon] {
+        height: unset;
+        width: unset;
+        margin-inline-start: unset;
+    }
+    > [class^=removeButton] {
+        position: absolute;
+        height: 12px;
+        width: 12px;
+        opacity: 0;
+        &:hover { opacity: 1 }
+    }
+}
