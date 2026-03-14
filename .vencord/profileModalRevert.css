@@ -3,11 +3,13 @@
 /* last modified by https://bsky.app/profile/did:plc:mx2n7v2ofnfszhfwtaoripcf (@glitchify64.bsky.social) */
 /* last modified also by 860441672172961822 (@bhumittsb) */
 /* last modified also by 127852571724349440 (@shadrel.foxen) */
+/* last modified also by 1143115697740853349 (@idkagoodaccname) */
 .user-profile-modal-v2 {
     max-width: 620px !important;
     min-width: 0px !important;
     max-height: 750px !important;
     min-height: 0px !important;
+
 
     .inner_c0bea0 {
         padding: 0px !important;
@@ -26,7 +28,7 @@
     &.custom-theme-background {
         .inner_c0bea0 {
             padding: 4px !important;
-            background: linear-gradient(100px(--profile-gradient-primary-color), 100px(--profile-gradient-secondary-color)) !important;
+            background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-secondary-color)) !important;
         }
 
         .profile__9c3be {
@@ -35,7 +37,7 @@
         }
     }
 
-    .selected_aa8da2 {
+    .selected_b3f026 {
         color: var(--text-secondary) !important;
 
         &::after {
@@ -43,7 +45,7 @@
         }
     }
 
-    .inner_c0bea0:has(.tabBarItem__37bfc:focus, .top_aa8da2:focus, .tabBarPanel__37bfc:focus-within, .tabBarPanel__37bfc:focus) {
+    .inner_c0bea0:has(.tabBarItem__37bfc:focus, .top_b3f026:focus, .tabBarPanel__37bfc:focus-within, .tabBarPanel__37bfc:focus) {
         .profile__9c3be {
 
             .markup__75297,
@@ -60,12 +62,12 @@
             pointer-events: all !important;
         }
 
-        .top_aa8da2::before {
+        .top_b3f026::before {
             color: var(--text-secondary);
             border-bottom: none !important;
         }
 
-        .selected_aa8da2 {
+        .selected_b3f026 {
             color: var(--selected-tab-item-color) !important;
 
             &::after {
@@ -85,7 +87,7 @@
         margin-top: 270px;
         padding: 18px 4px 26px;
 
-        .top_aa8da2 {
+        .top_b3f026 {
             padding-left: 26px;
         }
     }
@@ -105,8 +107,8 @@
                 mask: none;
 
                 .banner__68edb {
-                    min-height: 0px !important;
-                    height: 100px !important;
+                    min-height: var(--pmv1b-banner-height) !important;
+                    height: var(--pmv1b-banner-height) !important;
 
                     &::before {
                         display: none;
@@ -134,7 +136,7 @@
         padding-top: var(--space-xl);
     }
 
-    .top_aa8da2::before {
+    .top_b3f026::before {
         content: "User Info";
         color: var(--text-primary);
         border-bottom: 2px solid var(--text-primary) !important;
@@ -142,8 +144,7 @@
         font-weight: 600;
         padding-bottom: 13px;
         --tab-item-color: var(--text-primary);
-        margin: 0px var(--space-xl) 0px -25px;
-        cursor: pointer;
+        margin: 0px var(--space-xl) 0px 8px;
     }
 
     .empty_e766f2 {
